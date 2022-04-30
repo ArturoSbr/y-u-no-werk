@@ -1,2 +1,3 @@
 # y-u-no-werk
-I don't get it.
+
+The differences in means do not coincide with the interaction terms from a regression...
