@@ -14,7 +14,10 @@ I have a dependent variable (`Y`) and three binary columns (`T`, `X1` and `X2`).
 1. `X1 == 1` and `X2 == 0`
 1. `X1 == 1` and `X2 == 1`
 
-Within each group, I want to calculate the difference in the mean of `Y` between `T == 1` and `T == 0`. I can do so with the following code:
+# Objective
+For each of these groups, I want to calculate the difference in the mean of `Y` between observations with `T == 1` and `T == 0`.
+
+I can do so with the following code:
 
 ```python
 # Libraries
@@ -54,10 +57,11 @@ m.params[['T','X1T','X2T']]
 > X2T   -0.034303
 ```
 
+# Expected Results
 I was expecting the coefficients:
 1. `T` = 0.116175
-1. `T + X1T` = 0.168791
-1. `T + X2T` = -0.027278
+1. `T + X2T` = 0.168791
+1. `T + X1T` = -0.027278
 1. `T + X1T + X2T` = -0.147601
 
 # Question
