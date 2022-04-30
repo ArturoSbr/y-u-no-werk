@@ -1,6 +1,6 @@
 # Conditional means VS linear regression
 
-You can download the following data set [from this repo](https://github.com/ArturoSbr/y-u-no-werk).
+This question was originally posted on StackOverflow ([link here](https://stackoverflow.com/questions/72065072/regression-coefficients-do-not-coincide-with-conditional-means)).
 
 |    |         Y |   CONST |   T |   X1 |   X1T |   X2 |   X2T |
 |---:|----------:|--------:|----:|-----:|------:|-----:|------:|
